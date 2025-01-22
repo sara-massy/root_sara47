@@ -1,0 +1,123 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box
+   }
+   
+   body {
+       font-size: 22px; 
+       font-family:Georgia, 'Times New Roman', Times, serif;
+       color: rgb(101, 31, 116);
+       line-height: 40px;
+       background-color: hwb(0 10% 90%);
+       text-align: center;
+   
+   }
+   
+   #gallery {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;  
+       gap: 9px;
+       align-content: center;
+       margin-top: 20;
+       margin-left: 20px;
+   }
+   
+   section {
+       display: block;
+       unicode-bidi: isolate;
+   }
+   
+   h2 {
+       display: block;
+       font-size: 1.5cm;
+   }
+   
+   img {
+       width: 100%;
+       height: auto;
+   }
+   
+   .grid-item img {
+       width: 100%;
+       height: 100px;
+   }
+
+   #title {
+    margin-top: 20px;
+   }
+
+   #panel {
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    z-index: 10;
+    top:0px;
+    left:0px;
+    padding-top: 5%;
+    /* align-content:center; */
+    color: aliceblue;
+    font-weight: bold;
+    transition: all 1.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* 3d stuff */
+    transform-style: preserve-3d;
+}
+    
+    #panel-slide-up {
+        transform: translateY(90vh);
+    }
+    .slide-up{
+        transform: translateY(-99%) /*rotateX(70deg)*/;
+    }
+
+   
+   #bio {
+    color:hwb(304 84% 0%);
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    background-color: rgb(34, 20, 33);
+    padding: 20px 15px;
+    border-radius: 20px;
+    border: 2px solid hwb(280 12% 34%);
+    box-shadow:  2px 4px 8px rgb(73, 212, 189);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+   }
+
+   .screenshots {
+    width: 80%;
+   }
+
+   .chara {
+    width: 25%;
+   }
+
+   #play {
+    color:hwb(219 38% 10%);
+    font-size: 15px;
+    top: -50px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-color: hwb(193 58% 1%);
+    padding: 2px 5px;
+    border-radius: 10px;
+    box-shadow:  2px 4px 10px rgb(59, 68, 80);
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+    #play:hover {
+        color: hwb(193 58% 1%);
+        background-color: hwb(219 38% 10%);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    

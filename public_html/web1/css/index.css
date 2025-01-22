@@ -1,0 +1,41 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 22px; 
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+    background-color: hwb(353 65% 0%);
+
+}
+
+a {
+    color:hwb(353 48% 0%);
+    font-size: 15px;
+    top: -50px;
+    font-family:'Courier New', Courier, monospace;
+    display: inline-block;
+    background-color: hwb(83 48% 0%);
+    padding: 2px 5px;
+    border-radius: 10px;
+    border: 2px solid hwb(353 48% 0%);
+    box-shadow:  2px 4px 10px rgb(212, 153, 174);
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+    a:hover {
+        color: rgb(255, 226, 228);
+        background-color: hwb(353 48% 0%);
+    }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 1</title>
+    <link rel="stylesheet" href="css/js-3.css">
+</head>
+<body>
+    <h1>JavaScript Demo 1</h1>
+    <button id="loader" onclick="loadstuff()">Click Me!</button>
+    <main id=" content"></main>
+    <
+
+    <script>
+        alert("Hello World:)");
+        console.log("Page loaded succesfully!");
+        /**
+         * Variables
+         */
+        //dynamic vairable "let"
+        let myName = "Sara";
+        // a constant variable "const"
+        const pi= 3.14159265;
+        // Math operators: + = / *
+        console.log("PI x 7" + pi * 7);
+        
+        // Concatenate Strings (text data) 
+        // with other Strings or dynamic data with +
+        /**
+         * f u n c t i o n s
+         */
+
+         function eatPizza() {
+            alert("Yummy 🍕");
+         }
+
+         eatPizza();
+
+         // New ES6 Function
+         let makePizza = () => {
+            console.log("adding ingrediants... and bake:")
+         };
+
+         
+         const myContainer = document.getElementById("content");
+         
+         function loadStuff() {
+            myContainer.innerHTML =  '<p>Hello</p><img src="https://miro.medium.com/v2/resize:fit:1400/1*wVjyDSrSFb2vIg4Q1vlSgA.jpeg">';
+
+         }
+
+         const myContainer = document.getElementById("content");
+         let myAudio = new Audio("");
+
+         function loadStuff() {
+
+         }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Character</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="panel">Click Here</div>
+<h2 id="title">Game Character</h2>
+  <h3>Cosmix</h3>
+
+        <img class="chara" width="200px" src="./img/sara-character.svg" alt="">
+
+    <articles id="bio">
+        <h1>Who Is Cosmix?</h1>
+                   <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates ratione voluptatum harum, laudantium dicta, repellat cumque molestias esse quidem, delectus officia error id quae dignissimos impedit aspernatur facere temporibus.
+                </p>
+                </articles>
+  
+<h3>Figma</h3>
+
+        <img class= "screenshots" src="./img/figma-screenshot.png" alt="">
+
+</section>
+<h3>Concept Art</h3>
+<section id="gallery">
+    <figure>
+        <img width="200px" src="./img/concept-art.png" alt="">
+    </figure>
+    <figure>
+    <img src="./img/sara-character-project2.jpg" alt="">
+</figure>
+</section>
+</article>
+
+<btn>
+    <button id="btn" onclick="top.location.href ='/project3/index.html'">Play The Game</button>
+</btn>
+<script>
+    const panel = document.getElementById("panel");
+
+    panel.onclick = function(){
+    this.classList.toggle("slide-up");
+    }
+</script>
+</body>

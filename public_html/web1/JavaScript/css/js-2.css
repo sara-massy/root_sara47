@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(245, 161, 76);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+#star-five {
+        margin: 50px 0;
+        position: relative;
+        display: block;
+        color: rgb(0, 0, 0);
+        width: 0px;
+        height: 0px;
+        border-right: 100px solid transparent;
+        border-bottom: 70px solid rgb(0, 0, 0);
+        border-left: 100px solid transparent;
+        transform: rotate(35deg);
+      }
+      #star-five:before {
+        border-bottom: 80px solid rgb(0, 0, 0);
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -45px;
+        left: -65px;
+        display: block;
+        content: '';
+        transform: rotate(-35deg);
+      }
+      #star-five:after {
+        position: absolute;
+        display: block;
+        color: rgb(0, 0, 0);
+        top: 3px;
+        left: -105px;
+        width: 0px;
+        height: 0px;
+        border-right: 100px solid transparent;
+        border-bottom: 70px solid rgb(0, 0, 0);
+        border-left: 100px solid transparent;
+        transform: rotate(-70deg);
+        content: '';
+      }
+      #star-five.change-me{
+      border-left: 100px pink;  
+      transform: translatedX(200px) translatedY(400px) rotate(20deg) scale(2.5);
+
+      }
+}
