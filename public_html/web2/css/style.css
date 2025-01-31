@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 22px; 
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 250, 238);
+    line-height: 44px;
+
+    background-color: rgb(46, 42, 33);
+
+}
