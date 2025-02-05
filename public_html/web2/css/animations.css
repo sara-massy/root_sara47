@@ -1,0 +1,13 @@
+
+a:link {
+    transition: color 1s;
+}
+
+img{
+    opacity: 0.25;
+    transition: opacity 500ms;
+}
+
+img:hover {
+    opacity: 1;
+}
