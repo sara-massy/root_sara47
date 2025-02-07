@@ -3,11 +3,34 @@ a:link {
     transition: color 1s;
 }
 
-img{
+img {
     opacity: 0.25;
     transition: opacity 500ms;
+    margin-top: 50px;
 }
 
 img:hover {
     opacity: 1;
+}
+
+figure .visible{
+    opacity: 1;
+}
+
+figure .hidden{
+    opacity: 0;
+}
+
+figure:hover .hidden{
+opacity: 1;
+}
+
+figure img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+figure {
+    position: relative;
 }
