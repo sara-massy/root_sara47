@@ -1,0 +1,29 @@
+/* 2d-transform.css */
+
+a:link {
+    transition: color 1s;
+}
+
+#aria:hover{
+    transform: rotate(45deg);
+    }
+
+#aria {
+  transition: transform 0.5s;  
+}
+
+#galefrost {
+  transition: transform 0.5s;  
+}
+
+#dm {
+  transition: transform 0.5s;  
+}
+
+#galefrost:hover{
+transform: scale(2);
+}
+
+#dm:hover {
+transform: translateX(900px);
+}

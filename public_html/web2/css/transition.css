@@ -48,3 +48,11 @@ header {
     position: fixed;
     left: -0px;
 }   
+
+header div {
+    width: 100px;
+    }
+
+#title {
+    margin-bottom: 150px;
+}
