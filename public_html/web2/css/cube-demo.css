@@ -38,11 +38,13 @@ main{
     height: 2em;
   
     /* transform-style */
-  
+    transform-style: preserve-3d;
     /* top & left -1em */
-   
+    top: -1em;
+    left: -1em;
+
   
-    /* animation: rotate 5s linear infinite; */
+    animation: rotate 5s linear infinite alternate;
     
   
   }
