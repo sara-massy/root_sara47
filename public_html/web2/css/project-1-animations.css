@@ -1,0 +1,21 @@
+
+#cards{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+#click:hover {
+    transform: scale(0.5);
+    }
+    
+#click {
+    transition: transform 0.5s;  
+  }
+
+figure polygon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+

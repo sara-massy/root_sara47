@@ -14,7 +14,7 @@ body {
     font-size: 22px; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: hwb(308 29% 0%);
-    line-height: 44px;
+    line-height: 44px;   
     background-color: rgb(105, 4, 97);
     margin-left: 20px;
     
@@ -59,4 +59,8 @@ header div {
 #title {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+img {
+    margin-top: 20px ;
 }
